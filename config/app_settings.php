@@ -11,7 +11,7 @@ return [
 
             'inputs' => [
                 [
-                    'name' => 'app_name', // unique key for setting
+                    'name' => 'Laravel Pharmacy', // unique key for setting
                     'type' => 'text', // type of input can be text, number, textarea, select, boolean, checkbox etc.
                     'label' => 'App Name', // label for input
                     // optional properties
@@ -65,14 +65,14 @@ return [
 
             'inputs' => [
                 [
-                    'name' => 'from_email',
+                    'name' => 'admin@laravelpharmacy.com',
                     'type' => 'email',
                     'label' => 'From Email',
                     'placeholder' => 'Application from email',
                     'rules' => 'required|email',
                 ],
                 [
-                    'name' => 'from_name',
+                    'name' => 'Admin',
                     'type' => 'text',
                     'label' => 'Email from Name',
                     'placeholder' => 'Email from Name',
@@ -88,8 +88,8 @@ return [
     'middleware' => ['auth'],
 
     // View settings
-    // 'setting_page_view' => 'app_settings::settings_page',
-    'setting_page_view' => 'settings',
+    'setting_page_view' => 'app_settings::settings_page',
+    // 'setting_page_view' => 'settings',
     'flash_partial' => 'app_settings::_flash',
 
     // Setting section class setting
