@@ -10,5 +10,13 @@ use Illuminate\Support\Facades\DB;
 class SettingController extends Controller
 {
     // use SavesSettings;
-    
+   public function index()
+   {
+    return view('settings');
+   } 
+
+   public function store(Request $request)
+   {
+    # code...
+   }
 }

@@ -96,8 +96,6 @@ http://127.0.0.1:8000
  password: admin
 ```
 
-Theme: https://themeforest.net/item/doccure-doctor-appointment-booking-system-bootstrap-angular-template/28201296
-
 # Usage
 
 - Profile => 
@@ -190,17 +188,6 @@ Theme: https://themeforest.net/item/doccure-doctor-appointment-booking-system-bo
 6. When you are notified of the stock, just update the purchased product quantity.
 Or make a new purchase.
 
-![ScreenShot](screenshots/login.png?raw=true "Login page")
+# Screenshots
 
-![Dashboard](screenshots/dashboard.png?raw=true "Dashbaord page")
 
-![Profile](screenshots/user-profile.png?raw=true "User profile")
-
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>

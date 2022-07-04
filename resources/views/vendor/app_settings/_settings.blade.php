@@ -7,9 +7,9 @@
             <form method="post" action="{{ config('app_settings.url') }}" class="form-horizontal mb-3" enctype="multipart/form-data" role="form">
                 {!! csrf_field() !!}
 
-                @if( isset($settingsUI) && count($settingsUI) )
+                @if( isset($settingsUI ?? '' ?? '') && count($settingsUI ?? '' ?? '') )
 
-                    @foreach(Arr::get($settingsUI, 'sections', []) as $section => $fields)
+                    @foreach(Arr::get($settingsUI ?? '' ?? '', 'sections', []) as $section => $fields)
                         @component('app_settings::section', compact('fields'))
                             <div class="{{ Arr::get($fields, 'section_body_class', config('app_settings.section_body_class', 'card-body')) }}">
                                 @foreach(Arr::get($fields, 'inputs', []) as $field)
@@ -30,7 +30,7 @@
                 <div class="row m-b-md">
                     <div class="col-md-12">
                         <button class="btn-primary btn">
-                            {{ Arr::get($settingsUI, 'submit_btn_text', 'Save Settings') }}
+                            {{ Arr::get($settingsUI ?? '' ?? '', 'submit_btn_text', 'Save Settings') }}
                         </button>
                     </div>
                 </div>
